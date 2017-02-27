@@ -14,6 +14,6 @@ public class tuition {
 		for(int i = 0; i < 3; i++){
 			total += Math.pow(tuition, (1 + percentage));
 		}
-		System.out.println("The total amount of tuition is " + total);
+		System.out.printf("The total amount of tuition is %.2f", total);
 	}
 }
